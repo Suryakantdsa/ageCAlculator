@@ -1,0 +1,63 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #00aa; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 300px;
+    background-color: #fff;
+}
+.box h1{
+    text-align: center;
+    border-bottom: 1px solid gray;
+    margin-bottom: 2rem;
+    padding: 0.8rem;
+}
+.date{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+
+}
+.date label{
+    width: 30%;
+    margin: 0 1rem;
+    color: blue;
+    width: 5rem;
+    height: 3rem;
+    font-size: 2rem;
+} 
+.date label input{
+    width: 100%;
+    color: blue;
+    border: none;
+    border: 1px solid blue;
+   width: 100%;
+   height: 100%;
+   padding-left:1rem ;
+   font-size: 1.1rem;
+}
+.box button{
+    background-color: blue;
+    color: #fff;
+    margin:0 auto;
+    width: 32%;
+    height: 2rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-top: 4rem;
+}
+
+h2{
+    text-align: center;
+}
+
